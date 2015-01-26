@@ -1,0 +1,11 @@
+/*
+ * QuickLinks:
+ */
+li.keyword  {   list-style:none;  float:left; padding:4px;  -webkit-border-radius:5px;  -moz-border-radius:5px; -border-radius:5px; border-radius:5px;  background-color:#eee;padding:4px;margin-right:5px; }
+li.keyword a { color:#888; }
+li.keyword.assoc   {  background-color:#B00000 ; }
+li.keyword.assoc a { color:#fff; }
+li.keyword:hover  {  background-color:#888;}
+li.keyword a:hover { color:#eee; }
+li.keyword.category:hover  {  background-color:#888;}
+li.keyword.category a:hover { color:#eee; }

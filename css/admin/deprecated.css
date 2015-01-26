@@ -1,0 +1,130 @@
+/**
+ * All these styles are deprecated and should be removed once all modules have stopped
+ * using them.
+ *
+ *
+ *
+ */
+
+.s_status {
+    border-radius: 0.25em 0.25em 0.25em 0.25em;
+    color: #FFFFFF;
+    display: inline;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    padding: 0.2em 0.6em 0.3em;
+    text-align: center;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+
+/**
+ * Order status
+ */
+.s_pending      { background-color: #999999; }
+.s_complete     { background-color: #5BC0DE; }
+.s_cancelled    { background-color: #D9534F; }
+.s_rejected     { background-color: #D9534F; }
+.s_shipready     { background-color: #D9534F; }
+.s_accepted     { background-color: #F0AD4E; }
+.s_processing   { background-color: #F0AD4E; }
+.s_returned     { background-color: #D9534F; }
+.s_cancelled    { background-color: #D9534F; }
+.s_closed       { background-color: #5CB85C; }
+.s_shipped      { background-color: #F0AD4E; }
+.s_paid         { background-color: #428BCA; }
+.s_unpaid         { background-color: orange; }
+.s_completed  { background-color: #D9534F; }
+.s_active       { background-color: #428BCA; }
+.s_pending      { background-color: #F0AD4E; }
+.s_infobar_gray { background-color: #aaa; }
+.s_infobar      { background-color: #428BCA; }
+
+/**
+ * Transaction status
+ */
+.status_img_accepted    { background:url(img/16/status_accepted.png) no-repeat; background-position: center; }
+.status_img_rejected    { background:url(img/16/status_rejecetd.png) no-repeat; background-position: center; }
+
+.ajax_loader    { background:url('img/gif/ajax_loader.png') no-repeat;}
+
+
+.img_customer   { background:url('img/user/user.png') no-repeat; height:30px;  } /* restricted size here*/
+.img_noimg      { background:url('img/products/noimg.png') no-repeat;  height:30px; width:30px;  }
+.img_edit       { background:url('img/actions/edit.png') no-repeat; height:30px; }
+
+/*
+ * 16 x 16 px images
+ * img_icon img_create <- use like this
+ */
+.nc_toolbar         {margin-top:2px;border:1px thin solid #444; height:28px;padding:1px;background:#eee;}
+.img_icon_dev       { margin-top:0px; float:right;height:16px;width:16px;padding:4px;} /*most places*/
+.img_icon           { margin-top:0px; float:left;height:16px;width:16px;padding:4px;} /*most places*/
+.img_button           { margin-top:0px; float:left;height:48px;width:48px;padding:4px;border: #eee 1px solid;margin-right:5px;} /*most places*/
+.img_button:hover     { background:#aaa;border:#eee 1px solid;} /*most places*/
+.img_icon_title     { margin-top:0px; float:left;height:16px;width:16px;padding:4px; margin-right:5px;} /*header/title areas*/
+.img_icon.selected,
+.img_icon_title.selected,
+.img_icon_title:hover,
+
+
+.img_icon:hover         { background-color:#bbb !important; }
+.img_filter             { background:url(../img/16/filter.png) no-repeat;   background-position: center; }
+.img_filter.selected   { background:url(../img/16/filter_w.png) no-repeat; background-position: center; }
+.img_filter:hover       { background:url(../img/16/filter_on.png) no-repeat; background-position: center; background-color:transparent !important; }
+
+
+i.nc_filter      { 
+
+margin-top:0px; 
+float:left;
+height:16px;
+width:16px;
+padding:4px;
+background:url(../img/16/filter_on.png) no-repeat; 
+background-position: left; 
+background-color:transparent !important;
+}
+
+
+.img_delete             { background:url(../img/16/delete.png) no-repeat; background-position: center; }
+.img_delete:hover       { background:url(../img/16/delete_on.png) no-repeat; background-position: center;  background-color:transparent !important; } /*background-color:#b80000 !important;} */
+.img_view               { background:url(../img/16/view.png) no-repeat; background-position: center;   background-color:transparent !important; }
+.img_view:hover         { background:url(../img/16/view_on.png) no-repeat; background-position: center;   background-color:transparent !important; }
+
+
+p.img_visible            { background:url(../img/16/visible.png) no-repeat; background-position: center; }
+p.img_visible:hover      { background:url(../img/16/visible.png) no-repeat; background-position: center; background-color:transparent !important; }
+p.img_invisible          { background:url(../img/16/invisible.png) no-repeat; background-position: center; }
+p.img_invisible:hover    { background:url(../img/16/invisible.png) no-repeat; background-position: center; background-color:transparent !important; }
+
+
+/*48px icons*/
+.img_48                 { margin-top:0px; float:left; height:48px; width:48px; padding:4px; background-position: center; } /*most places*/
+.img_noimg              { background:url(img/48/noimg.png) no-repeat; }
+
+
+/*category and keyword are deprecated - use the followin names*/
+a.nc_links           { list-style:none;  float:left; padding:4px;   -webkit-border-radius:5px;  -moz-border-radius:5px; -border-radius:5px; border-radius:5px;padding:4px;margin-right:5px; }
+a.nc_links           { color:#888; }
+a.nc_links:hover     { color:#444;background-color:#eee;}
+
+
+/*
+ * Used for Products Gallery Images on Products, Gallery, Categories and Brands
+ */
+ #scrollable_images_panel { overflow-y:scroll;min-height:50px;max-height:300px; }
+.container          { position: relative; width: 100px; height: 100px; float: left; margin-right: 4px; margin-bottom: 4px; border:1px solid #aaa;}
+
+
+.disc_qty       {   width:30px;}
+.disc_price     {   min-width:30px;max-width:50px;}
+
+
+/*product gallery*/
+.gall_container { position: relative; width: 100px; height: 100px; float: left; margin-right: 4px; margin-bottom: 4px;}
+
+
+.hidden { display: none; }
+#chart_div .legend { display: none; }

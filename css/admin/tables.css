@@ -1,0 +1,10 @@
+
+td a.category           {   list-style:none;  float:left; padding:4px;  -webkit-border-radius:5px;  -moz-border-radius:5px; -border-radius:5px; border-radius:5px;padding:4px;margin-right:5px; }
+td a.category           { color:#888; }
+td a.category:hover     {  color:#444;background-color:#eee;}
+
+
+.clickable_row        { cursor:pointer; color:#f00; }
+tr.clickable_row:hover td , .clickable_row td:hover     { color:#444; }
+
+.clickable_row  { height:18px;border:collapse; }

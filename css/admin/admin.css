@@ -1,0 +1,34 @@
+/*
+ * The admin.css file contains common Styling across all the shop modules (admin area)
+ *
+ * Also, these styles may not be easily categoriesd into their other css files such as tables/lists.
+ *
+ *
+ *
+ */
+.gravatar {  background-color: #EAEAEA;border: 1px solid #999999;border-radius:30px;list-style: none outside none;margin: 0;padding: 0;}
+.gravatar {  opacity:0.7; }
+.gravatar:hover {   opacity:1; }
+
+span.gt .gravatar {   opacity:1; }
+
+/*
+ * Form Inputs
+ */
+.form_inputs div.info
+{
+	font-weight: bold;
+	width: 200px;
+	display: inline-block;
+	text-align: right;
+}
+.form_inputs div.value
+{
+	width: 600px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+/*alert links*/
+.alert.error.fadeIn .create {color:yellow;}
+.alert.error.fadeIn .create:hover {text-decoration:underline;}
